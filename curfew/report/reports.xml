@@ -1,0 +1,12 @@
+<odoo>
+	<report id="application_report"
+		model="curfew.epass" report_type="qweb-pdf"
+		string="Epass PDF report"
+		name="curfew.application_reportpdf"
+		file="curfew.application_reportpdf" />
+		
+	<report id="application_xlsx" model="curfew.epass"
+		string="Epass Application Excel Report" report_type="xlsx"
+		name="curfew.application_xlsx" file="curfew.application_xlsx"
+		attachment_use="False" />
+</odoo>

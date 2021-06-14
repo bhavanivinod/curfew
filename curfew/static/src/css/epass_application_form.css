@@ -1,0 +1,38 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+.err{
+	color: #5f6066;
+	visibility: hidden;
+	background-color: #fcfcfc;
+	width:100%;
+	text-align: center;
+}
+.padd_img{
+	padding-top:30px;
+	padding-bottom:60px;
+	margin-right:5px;
+	padding-right:45px;
+	
+}
+.all-label{
+	color:white;
+	font-size: 18px;
+}
+.footer{
+	height:100px;
+}
+.header{
+	color:white;
+	
+}
+.grid-container{
+	background-color: black;
+	align-self: center;
+  	justify-self: center;
+}

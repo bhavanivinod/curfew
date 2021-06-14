@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+curfew_admin_epass,curfew.group.admin.epass,model_curfew_epass,epass_admin,1,1,1,1
+curfew_admin_epass_wizard,curfew.group.admin.epass.wizard,model_generate_epass,epass_admin,1,1,1,1
+curfew_admin_category,curfew.group.admin.category,model_curfew_category,epass_admin,1,1,1,1
+curfew_citizen_epass_wizard,curfew.group.citizen.epass.wizard,model_generate_epass,group_citizen,1,0,0,0
+curfew_citizen_epass,curfew.group.citizen.epass,model_curfew_citizen,group_citizen,1,1,0,0
+curfew_citizen_epass_admin,curfew.group.citizen.epass.admin,model_curfew_citizen,epass_admin,1,1,1,1
